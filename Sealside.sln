@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sealside.Website", "Sealside.Website\Sealside.Website.csproj", "{F15A8799-E6CB-4045-9123-6E45427FC800}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F15A8799-E6CB-4045-9123-6E45427FC800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F15A8799-E6CB-4045-9123-6E45427FC800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F15A8799-E6CB-4045-9123-6E45427FC800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F15A8799-E6CB-4045-9123-6E45427FC800}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6DEAD07-CEBE-4B15-B903-B574F8D33EFB}
+	EndGlobalSection
+EndGlobal
