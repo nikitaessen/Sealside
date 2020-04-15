@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sealside.Website", "Sealside.Website\Sealside.Website.csproj", "{F15A8799-E6CB-4045-9123-6E45427FC800}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sealside.Website", "Sealside.Website\Sealside.Website.csproj", "{F15A8799-E6CB-4045-9123-6E45427FC800}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sealside.Crosscutting", "Sealside.Crosscutting\Sealside.Crosscutting.csproj", "{36F4CE29-5410-4EFF-B734-4FC5AC437E06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sealside.Models", "Sealside.Models\Sealside.Models.csproj", "{667031A2-66D4-40E9-B186-7BB6AEB47BF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{F15A8799-E6CB-4045-9123-6E45427FC800}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F15A8799-E6CB-4045-9123-6E45427FC800}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F15A8799-E6CB-4045-9123-6E45427FC800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36F4CE29-5410-4EFF-B734-4FC5AC437E06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36F4CE29-5410-4EFF-B734-4FC5AC437E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36F4CE29-5410-4EFF-B734-4FC5AC437E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36F4CE29-5410-4EFF-B734-4FC5AC437E06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{667031A2-66D4-40E9-B186-7BB6AEB47BF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{667031A2-66D4-40E9-B186-7BB6AEB47BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{667031A2-66D4-40E9-B186-7BB6AEB47BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{667031A2-66D4-40E9-B186-7BB6AEB47BF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
