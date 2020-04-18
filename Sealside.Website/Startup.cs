@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Sealside.Crosscutting.Logging;
+using Sealside.Models.Database;
 using System.IO;
 
 namespace Sealside.Website
@@ -20,6 +22,12 @@ namespace Sealside.Website
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+
+            //Database connection
+            services.AddDbContext<UserDbContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("UsersContext")));
+            services.AddScoped<UserDbContext>();
+
             services.Configure<IISServerOptions>(options =>
             {
                 options.AutomaticAuthentication = false;

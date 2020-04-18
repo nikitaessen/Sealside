@@ -1,1 +1,10 @@
-﻿<h1>Sealside home</h1>
+﻿@using Sealside.Models;
+@model List<User>
+
+<h1>Sealside home</h1>
+<div>
+    @foreach(var user in Model)
+    {
+        <p>@user.Name</p>
+    }
+</div>
